@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Condensed&display=swap');
+
+:root{
+    --background: #d7edec;
+    --black: #000;
+    --gray: #766d6d;
+    --white: #F5F5F5;
+
+}
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background-color: var(--background);
+}
+main{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+/* DIV CONTENT */
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.content__school{
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.content__tittle{
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.content__description{
+    color: var(--gray);
+}
+
+.content__container{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn{
+    padding: 1rem;
+    background-color: var(--black);
+    border: none;
+    color: var(--white);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.btn--transparent{
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+main img{
+    height: 80vh;
+}
